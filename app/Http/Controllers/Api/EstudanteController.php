@@ -75,4 +75,8 @@ class EstudanteController extends Controller
 
         return response()->json(['message' => 'Error'], 500);
     }
+
+    public function hello(){
+        echo "hello world";
+    }
 }
