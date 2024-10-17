@@ -59,7 +59,6 @@ class EstudanteService
         ];
 
         $estudanteData = [
-            'pessoa_id' => null,
             'turma' => $data['turma'],
         ];
 
